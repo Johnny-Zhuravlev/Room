@@ -1,0 +1,19 @@
+.slider__img {
+    margin: 0 auto;
+}
+
+
+/* Media Queries */
+@media (min-width: 1441px) {
+    .slider__img {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 1280px) {
+    .slick-dotted.slick-slider {
+        margin-bottom: 120px;
+    }
+}

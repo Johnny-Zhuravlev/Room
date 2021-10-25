@@ -1,0 +1,258 @@
+.marketing {
+}
+.marketing-inner {
+    padding: 65px 0;
+    background: #f2f2f2;
+}
+.marketing__title {
+    margin-bottom: 65px;
+    font-size: 46px;
+    line-height: 50.6px;
+    text-align: center;
+}
+.marketing__content {
+    max-width: 900px;
+    margin: 0 auto 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.marketing__item {
+    width: 31.75%;
+    text-align: center;
+}
+.marketing__item--img {
+    margin: 0 auto 30px;
+}
+.marketing__item--text {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.75px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+.marketing__links {
+    text-align: center;
+}
+.marketing__link,
+.marketing__link--terms {
+    display: block;
+    text-decoration: none;
+}
+.marketing__link {
+    width: fit-content;
+    margin: 0 auto 24px;
+    padding: 5px 13px;
+    font-size: 12px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #46856e;
+    border-radius: 2px;
+
+    transition: all .4s linear;
+}
+.marketing__link:hover {
+    background-color: #0d5038;
+}
+.marketing__link:active {
+    background-color: #46856e;
+}
+.marketing__link--terms {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 14px;
+    color: #aaa;
+    position: relative;
+
+    transition: all .4s linear;
+}
+.marketing__link--terms::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #aaa;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+    transition: all .3s linear;
+}
+.marketing__link--terms:active {
+    color: #4e4d4d;
+}
+.marketing__link--terms:hover::after {
+    width: 100%;
+}
+.marketing__link--terms:active::after {
+    background-color: #4e4d4d;
+}
+
+
+
+/* Media Queries */
+@media (min-width: 1530px) {
+    .marketing-inner {
+        padding: 80px 0;
+    }
+    .marketing__title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .marketing__content {
+        max-width: 1000px;
+    }
+    .marketing__item {
+        width: 33.3333%;
+    }
+    .marketing__item--img {
+        width: 80px;
+        height: 80px;
+    }
+    .marketing__item--text {
+        font-size: 14px;
+    }
+    .marketing__link {
+        padding: 10px 17.5px;
+
+        font-size: 14px;
+    }
+    .marketing__link--terms {
+        font-size: 13px;
+    }
+}
+
+
+
+@media (min-width: 1680px) {
+    .marketing-inner {
+        padding: 90px 0;
+    }
+    .marketing__title {
+        font-size: 50px;
+    }
+    .marketing__item--img {
+        width: 85px;
+        height: 85px;
+    }
+    .marketing__item--text {
+        font-size: 15px;
+    }
+    .marketing__link {
+        padding: 15px 20px;
+
+        font-size: 15px;
+    }
+}
+
+
+
+@media (min-width: 1920px) {
+    .marketing-inner {
+        padding: 100px 0;
+    }
+    .marketing__title {
+        font-size: 52px;
+        line-height: 60px;
+    }
+    .marketing__item--img {
+        width: 95px;
+        height: 95px;
+    }
+    .marketing__item--text {
+        font-size: 16px;
+    }
+    .marketing__link {
+        padding: 17.5px 22.5px;
+
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    .marketing__title {
+        margin-bottom: 55px;
+
+        font-size: 42px;
+    }
+    .marketing__item {
+        width: 25%;
+    }
+}
+
+
+
+@media (max-width: 568px) {
+    .marketing-inner {
+        padding: 50px 0;
+    }
+    .marketing__content {
+        margin-bottom: 50px;
+    }
+    .marketing__title {
+        margin-bottom: 50px;
+
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .marketing__item--img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .marketing__link {
+        margin-bottom: 15px;
+
+        font-size: 10px;
+        line-height: 24px;
+    }
+}
+
+
+
+@media (max-width: 432px) {
+    .marketing__title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .marketing__item--img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 15px;
+    }
+    .marketing__item--text {
+        font-size: 11px;
+        letter-spacing: 0.5px;
+    }
+    .marketing__link--terms {
+        font-size: 10px;
+    }
+}
+
+
+
+@media (max-width: 360px) {
+    .marketing-inner {
+        padding: 35px 0;
+    }
+    .marketing__title {
+        margin-bottom: 35px;
+
+        font-size: 24px;
+    }
+    .marketing__content {
+        margin-bottom: 40px;
+    }
+    .marketing__item--text {
+        font-size: 10px;
+    }
+    .marketing__link {
+        margin-bottom: 10px;
+    }
+    .marketing__link--terms {
+        font-size: 9px;
+    }
+}
