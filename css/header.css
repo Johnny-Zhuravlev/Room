@@ -90,11 +90,11 @@
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
-    background: url(../img/header/location-sign.svg) 4px 0 no-repeat;
+    background: url(../img/header/location-sign.svg) 5px 0 no-repeat;
     transition: all .3s linear;
 }
 .location:hover {
-    background-position: 6px 0;
+    background-position: 8px 0;
 }
 .cart {
     width: 25px;
