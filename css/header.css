@@ -90,15 +90,11 @@
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
-    background: url(../img/header/location-sign.svg) 0 0 no-repeat;
+    background: url(../img/header/location-sign.svg) 4px 0 no-repeat;
     transition: all .3s linear;
 }
 .location:hover {
-    background-position: 10px 0;
-}
-.location:active {
-    color: #aaa;
-    background: url(../img/header/location-sign-active.svg) 10px 0 no-repeat;
+    background-position: 6px 0;
 }
 .cart {
     width: 25px;
@@ -142,11 +138,9 @@
     .location {
         font-size: 14px;
         line-height: 30px;
-        background: url(../img/header/location-sign.svg) 0 0/30px 30px no-repeat;
     }
     .location:active {
         color: #aaa;
-        background: url(../img/header/location-sign-active.svg) 5px 0/30px 30px no-repeat;
     }
     .cart:active {
         transform: scale(0.8);
