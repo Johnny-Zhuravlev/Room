@@ -378,6 +378,15 @@ input[type="text"]:hover {
     .form__subtitle {
         font-size: 16px;
     }
+    .checkbox {
+        top: 212px;
+    }
+    .checkbox + .form__text::before {
+        top: 215px;
+    }
+    .form__text::after {
+        top: 222px;
+    }
 }
 
 
